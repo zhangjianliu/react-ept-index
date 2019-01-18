@@ -1,0 +1,38 @@
+{
+  "name": "react-ept-index",
+  "version": "1.0.0",
+  "description": "react-ept-index",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangjianliu/react-ept-index.git"
+  },
+  "keywords": [
+    "ept"
+  ],
+  "author": "zhangjianliu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangjianliu/react-ept-index/issues"
+  },
+  "homepage": "https://github.com/zhangjianliu/react-ept-index#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1"
+  }
+}
